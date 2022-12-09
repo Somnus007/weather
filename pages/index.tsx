@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import bg from "../public/images/bg.jpg";
 
@@ -13,14 +14,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image
-          src={bg}
-          alt="bg"
-          fill
-          style={{
-            objectFit: "contain",
-          }}
-        />
+        <Link href="/about">Go To About</Link>
+        <Image src={bg} alt="bg" height={100} />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>

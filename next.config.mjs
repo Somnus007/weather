@@ -7,7 +7,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // assetPrefix: "./",
+  basePath: "/weather",
 };
 
 export default nextConfig;
