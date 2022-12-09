@@ -5,10 +5,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    loader: "akamai",
-    path: "",
+    unoptimized: true,
   },
-  assetPrefix: "./",
+  // assetPrefix: "./",
 };
 
 export default nextConfig;
